@@ -7,4 +7,9 @@ export NVM_DIR="/usr/local/opt/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 source ~/dotfiles/.git-completion.bash
+
+source ~/dotfiles/.docker-completion.bash
+source ~/dotfiles/.docker-machine-completion.bash
+source ~/dotfiles/.docker-compose-completion.bash
+
 source ~/dotfiles/aliases.sh
