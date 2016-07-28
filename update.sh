@@ -10,3 +10,6 @@ curl https://raw.githubusercontent.com/docker/compose/$(docker-compose version -
 brew update && brew upgrade
 
 wait
+
+rm -rf .bash-git-prompt
+git clone https://github.com/magicmonty/bash-git-prompt.git .bash-git-prompt --depth=1

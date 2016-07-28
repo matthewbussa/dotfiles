@@ -15,6 +15,10 @@ source ~/dotfiles/.docker-compose-completion.bash
 
 source ~/dotfiles/aliases.sh
 
+#Git Prompt Script
+source ~/dotfiles/.bash-git-prompt/gitprompt.sh
+GIT_PROMPT_ONLY_IN_REPO=1
+
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
     . $(brew --prefix)/etc/bash_completion
 fi
