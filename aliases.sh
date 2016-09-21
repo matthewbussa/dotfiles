@@ -32,3 +32,7 @@ alias rs='be rails server'
 
 alias startps='postgres -D /usr/local/var/postgres'
 
+#MySql
+alias startms='mysql.server start'
+alias stopms='mysql.server stop'
+
