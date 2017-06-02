@@ -36,3 +36,5 @@ alias startps='postgres -D /usr/local/var/postgres'
 alias startms='mysql.server start'
 alias stopms='mysql.server stop'
 
+#Android
+alias startem='/Users/matthewbussa/Library/Android/sdk/tools/emulator -avd Nexus_6_API_24'
